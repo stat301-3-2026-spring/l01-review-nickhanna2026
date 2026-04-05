@@ -133,7 +133,7 @@ In general, is a mechanistic or empirically driven model easier to interpret? Ex
 ::: {.callout-tip icon="false"}
 ## Solution
 
-In general, mechanistic models are easier to interpret because they are built around known relationships and clear cause-and-effect assumptions. Each parameter usually has a direct meaning, so you can explain how changes in inputs affect the outcome. Empirically driven models, especially more flexible ones, can be harder to interpret because they focus on capturing patterns in the data rather than explaining why those patterns exist.
+In general, mechanistic models are easier to interpret because they are built around known relationships and clear cause-and-effect assumptions. Each parameter usually has a direct meaning, so you can explain how changes in inputs affect the outcome. Empirically driven models, especially more flexible ones, can be harder to interpret because they focus on capturing patterns in the data rather than explaining why those patterns exist. Oftentimes the way these patterns are idenfitied also require deeper learning which is computationally more exhaustive and therefore  more difficult to identify. 
 :::
 
 #### Part (e)
