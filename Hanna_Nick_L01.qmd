@@ -26,18 +26,12 @@ citation-location: margin
 ::: {.callout-tip icon="false"}
 ## Github Repo Link
 
-To link to your github **repo**sitory, appropriately edit the example link below. Meaning replace `https://your-github-repo-url` with your github repo url. Suggest verifying the link works before submitting.
-
 [nickhanna2026](https://github.com/stat301-3-2026-spring/l01-review-nickhanna2026)
 :::
 
 ## Overview
 
 The goal of this lab is to review machine learning/predictive modeling vocabulary and concepts covered in Data Science 2 with R (STAT 301-2).
-
-## Questions
-
-When completing the following questions ensure your solutions are neatly formatted and clearly indicated. Consider including diagrams/images in some of your solutions, if it helps to make things easier to describe/discuss.
 
 ### Question 1
 
@@ -78,8 +72,7 @@ In general, we can classify a model by its purpose into 1 of the 3 categories be
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
-
+Descriptive models are used to summarize and visualize data in order to understand patterns, trends, or relationships. They don’t make predictions or formal conclusions, but instead help describe what the data looks like and highlight key features.
 :::
 
 #### Inferential Models
@@ -87,7 +80,7 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Inferential models are used to draw conclusions about a population or test hypotheses based on sample data. They focus on understanding relationships between variables and determining whether those relationships are statistically significant, relying heavily on underlying assumptions.
 
 :::
 
@@ -96,8 +89,7 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
-
+Predictive models are designed to make the most accurate predictions possible on new or unseen data. The main goal is not interpretation, but performance—using patterns in existing data to forecast future outcomes.
 :::
 
 ### Question 4 
@@ -171,7 +163,7 @@ Explain the difference between a regression and classification machine learning 
 ::: {.callout-tip icon="false"}
 ## Solution
 
-Stratifying by the outcome variable makes sure each split has a similar distribution of the target as the full dataset. This is especially important when the classes are imbalanced, so you don’t end up with a training or validation set that has too many or too few of one class. We use it because it leads to more reliable model evaluation. Without stratification, performance metrics like RMSE or accuracy could be misleading just due to an uneven split rather than the model itself.
+A regression problem involves predicting a continuous numerical outcome, such as price, income, or temperature. The model’s goal is to estimate a real-valued quantity based on the input variables.A classification problem involves predicting a categorical outcome, where the result falls into one of a set of predefined classes, such as yes/no, default/no default, or spam/not spam. The model’s goal is to correctly assign observations to the appropriate category.
 :::
 
 ### Question 6 
@@ -181,7 +173,7 @@ When splitting the data, why is it useful to stratify by the outcome/target vari
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Stratifying by the outcome variable makes sure each split has a similar distribution of the target as the full dataset. This is especially important when the classes are imbalanced, so you don’t end up with a training or validation set that has too many or too few of one class. We use it because it leads to more reliable model evaluation. Without stratification, performance metrics like RMSE or accuracy could be misleading just due to an uneven split rather than the model itself.
 
 :::
 
@@ -224,7 +216,7 @@ What are two common performance metrics when dealing with a regression ML proble
 ::: {.callout-tip icon="false"}
 ## Solution
 
-RMSE and MAE
+RMSE and MAE. 
 
 :::
 
@@ -233,7 +225,7 @@ What are two common performance metrics when dealing with a classification ML pr
 ::: {.callout-tip icon="false"}
 ## Solution
 
-Accuracy and ROC AUC
+Accuracy and ROC AUC. 
 :::
 
 ### Question 11
@@ -247,8 +239,7 @@ A company with a subscription based service (for example Netflix, Disney+, New Y
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
-
+This question is asking whether a specific variable (number of service calls) has an effect on churn. The goal is to understand the relationship and test if it is significant, not to predict outcomes. So this falls under inference because it is about explaining or drawing conclusions about the impact of a predictor.
 :::
 
 2. How likely is it that a customer will churn in the next month (leave the company/drop the service)?
@@ -256,7 +247,6 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
-
+This question is asking how likely a customer is to churn in the next month, which is directly about making predictions for future outcomes. The focus is on accuracy in forecasting churn rather than interpreting relationships, so this is a predictive problem.
 :::
 
