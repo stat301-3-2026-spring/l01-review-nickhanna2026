@@ -163,7 +163,7 @@ Explain the difference between a regression and classification machine learning 
 ::: {.callout-tip icon="false"}
 ## Solution
 
-A regression problem involves predicting a continuous numerical outcome, such as price, income, or temperature. The model’s goal is to estimate a real-valued quantity based on the input variables.A classification problem involves predicting a categorical outcome, where the result falls into one of a set of predefined classes, such as yes/no, default/no default, or spam/not spam. The model’s goal is to correctly assign observations to the appropriate category.
+A regression problem involves predicting a continuous numerical outcome, such as price, income, or temperature. The model’s goal is to estimate a real-valued quantity based on the input variables. A classification problem involves predicting a categorical outcome, where the result falls into one of a set of predefined classes, such as yes/no, default/no default, or spam/not spam. The model’s goal is to correctly assign observations to the appropriate category.
 :::
 
 ### Question 6 
